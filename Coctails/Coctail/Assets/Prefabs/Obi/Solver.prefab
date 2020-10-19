@@ -2490,7 +2490,7 @@ MonoBehaviour:
     evaluationOrder: 0
     iterations: 2
     SORFactor: 1
-    enabled: 0
+    enabled: 1
   bendingConstraintParameters:
     evaluationOrder: 1
     iterations: 1
