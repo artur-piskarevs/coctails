@@ -93,7 +93,7 @@
     <Compile Include="Assets\Obi\Samples\Fluid\SampleResources\Scripts\ObiFluidPropertyColorizer.cs" />
     <Compile Include="Assets\Obi\Samples\Fluid\SampleResources\Scripts\ViscositySurfTensionToUserData.cs" />
     <Compile Include="Assets\Obi\Samples\Fluid\SampleResources\Scripts\WaveGenerator.cs" />
-    <Compile Include="Assets\ObiMixing.cs" />
+    <Compile Include="Assets\Scripts\ObiMixing.cs" />
     <None Include="Assets\Obi\Samples\Fluid\SampleResources\Materials\StandardPerInstanceColor.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Obi\Resources\ObiMaterials\ParticleShader.shader" />
@@ -667,31 +667,31 @@
       <HintPath>C:/Program Files/Unity2019.4.8f1/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/GamedevС/Coctails/Coctail/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/GamedevС/GitCoctails/coctails/Coctails/Coctail/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/GamedevС/Coctails/Coctail/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/GamedevС/GitCoctails/coctails/Coctails/Coctail/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/GamedevС/Coctails/Coctail/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/GamedevС/GitCoctails/coctails/Coctails/Coctail/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/GamedevС/Coctails/Coctail/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/GamedevС/GitCoctails/coctails/Coctails/Coctail/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/GamedevС/Coctails/Coctail/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/GamedevС/GitCoctails/coctails/Coctails/Coctail/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/GamedevС/Coctails/Coctail/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/GamedevС/GitCoctails/coctails/Coctails/Coctail/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/GamedevС/Coctails/Coctail/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/GamedevС/GitCoctails/coctails/Coctails/Coctail/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/GamedevС/Coctails/Coctail/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/GamedevС/GitCoctails/coctails/Coctails/Coctail/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/GamedevС/Coctails/Coctail/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/GamedevС/GitCoctails/coctails/Coctails/Coctail/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
