@@ -4,9 +4,11 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
+SwitchIL2CPPCache/
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
-[Aa]ssets/AssetStoreTools*
+# [Aa]ssets/AssetStoreTools*
+
 # Visual Studio cache directory
 .vs/
 
@@ -27,17 +29,17 @@ ExportedObj/
 *.booproj
 *.svd
 *.pdb
-<<<<<<< HEAD
 *.mdb
 *.opendb
 *.VC.db
-*.opendb
+*.o
+
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
-# Unity3D generated file on crash reports
+*.mdb.meta
 
-# Unity3D Generated File On Crash Reports
+# Unity3D generated file on crash reports
 sysinfo.txt
 
 # Builds
@@ -46,15 +48,5 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/SRP (Legacy)/HDSRPTemplates 3xx (Legacy).unitypackage.meta
-Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/SRP (Legacy)/HDSRPTemplates 4xx (Legacy).unitypackage.meta
-Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/SRP (Legacy)/HDSRPTemplates 572 (Legacy).unitypackage.meta
-Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/SRP (Legacy)/HDSRPTemplates 5xx (Legacy).unitypackage.meta
-Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/SRP (Legacy)/LWSRPTemplates 3xx (Legacy).unitypackage.meta
-Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/SRP (Legacy)/LWSRPTemplates 4xx (Legacy).unitypackage.meta
-Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/USRPTemplates.unitypackage.meta
-Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/PPStackTemplates.unitypackage.meta
-Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/LWSRPTemplates.unitypackage.meta
-Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/HDSRPTemplates.unitypackage.meta
-Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/CustomRTTemplates.unitypackage.meta
+SwitchIL2CPPCache/il2cpp_cache/4F3553CB463B90C29E84191D654935E3.d
 
