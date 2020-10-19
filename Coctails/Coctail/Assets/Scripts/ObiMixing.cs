@@ -17,6 +17,21 @@ public class ObiMixing : MonoBehaviour
     [SerializeField] private ObiEmitter emitter5;
 
     [SerializeField] private TextMeshProUGUI text;
+
+    [SerializeField] private TextMeshProUGUI _fpsText;
+    [SerializeField] private float _hudRefreshRate = 0.3f;
+
+    private float _timer;
+
+    private void Update()
+    {
+        if (Time.unscaledTime > _timer)
+        {
+            int fps = (int)(1f / Time.unscaledDeltaTime);
+            _fpsText.text = "FPS: " + fps;
+            _timer = Time.unscaledTime + _hudRefreshRate;
+        }
+    }
     void Awake()
     {
         if (emitter1) emitter1.speed = 0f;
@@ -54,7 +69,7 @@ public class ObiMixing : MonoBehaviour
     public void TurnSurface()
     {
         renderer.settings.generateSurface = !renderer.settings.generateSurface;
-        text.text = "Surface Reconstruction : " + renderer.settings.generateSurface;
+        text.text = "Surface : " + renderer.settings.generateSurface;
     }
     public void TurnLighting()
     {
